@@ -1,0 +1,12 @@
+const alphabet = "qwertyuiop[]asdfghjkl;'zxcvbnm,./";
+let firstLine = alphabet.slice(0, 12);
+let secondLine = alphabet.slice(12, 23);
+let thirdLine = alphabet.slice(23, 33);
+const slicedAlphabet = [];
+slicedAlphabet.push(firstLine, secondLine, thirdLine);
+let hello = slicedAlphabet[1][5] + slicedAlphabet[0][2] + slicedAlphabet[1][8] + slicedAlphabet[1][8] + slicedAlphabet[0][8];
+let javascript = slicedAlphabet[1][6] + slicedAlphabet[1][0] + slicedAlphabet[2][3] + slicedAlphabet[1][0] + slicedAlphabet[1][1] + slicedAlphabet[2][2] + slicedAlphabet[0][3] + slicedAlphabet[0][7] + slicedAlphabet[0][9] + slicedAlphabet[0][4];
+let trainer = slicedAlphabet[0][4] + slicedAlphabet[0][3] + slicedAlphabet[1][0] + slicedAlphabet[0][7] + slicedAlphabet[2][5] + slicedAlphabet[0][2] + slicedAlphabet[0][3];
+console.log(hello);
+console.log(javascript);
+console.log(trainer);
